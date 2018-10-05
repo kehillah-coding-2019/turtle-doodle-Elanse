@@ -23,10 +23,10 @@ def diagonalLine(myTurtle, x, y, angle):
     myTurtle.pensize(height/5)
     myTurtle.begin_fill()
     myTurtle.right(angle)
-    myTurtle.forward(675)
+    myTurtle.forward(900)
     myTurtle.end_fill()
     myTurtle.ht()
 
-diagonalLine(cross, -300, 150, 45)
+diagonalLine(cross, -400, 200, 26.7)
 
 input()
