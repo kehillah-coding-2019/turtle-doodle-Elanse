@@ -4,7 +4,7 @@ bg = turtle.Screen()
 cross = turtle.Turtle()
 
 height = 400
-aspectRatio = 2/1
+aspectRatio = 2/1 #sets the flag to a 2:1 ratio
 length = aspectRatio * height
 
 bg.setup(length, height) #sets flag dimensions in a 2:1 aspectRatio
