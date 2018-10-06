@@ -2,6 +2,7 @@ import turtle
 
 bg = turtle.Screen()
 cross = turtle.Turtle()
+cross2 = turtle.Turtle()
 
 height = 400
 aspectRatio = 2/1 #sets the flag to a 2:1 ratio
@@ -28,5 +29,6 @@ def diagonalLine(myTurtle, x, y, angle):
     myTurtle.ht()
 
 diagonalLine(cross, -400, 200, 26.7)
+diagonalLine(cross2, 400, 200, 153.3)
 
 input()
