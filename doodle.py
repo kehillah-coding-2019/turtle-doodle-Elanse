@@ -26,8 +26,7 @@ bg.bgcolor("midnightblue")
 
 
 """
-Make a function to draw the diagonal lines on the Union Jack with four parameters:
-myTurtle, location on x axis, location on y axis, and angle of the line
+Make a function to draw the lines on the Union Jack.
 """
 
 def drawLine(myTurtle, color, size, x, y, length, angle):
@@ -49,9 +48,9 @@ drawLine(diagonal, "red", height/15, -413.3, 200, 425, 26.7) # top left
 drawLine(diagonal1, "red", height/15, 386.7, 200, 425, 153.3) # top right
 drawLine(diagonal2, "red", height/15, -386.7, -200, 425, -26.7) # bottom left
 drawLine(diagonal3, "red", height/15, 413.3, -200, 425, -153.3) # bottom right
-drawLine(line, "white", height/3, 0, 200, 400, 90)
-drawLine(line1, "white", height/3, -400, 0, 800, 0)
-drawLine(line2, "red", height/5, 0, 200, 400, 90)
-drawLine(line3, "red", height/5, -400, 0, 800, 0)
+drawLine(line, "white", height/3, 0, 200, 400, 90) # white vertical line
+drawLine(line1, "white", height/3, -400, 0, 800, 0) # white horizontal line
+drawLine(line2, "red", height/5, 0, 200, 400, 90) # red vertical line
+drawLine(line3, "red", height/5, -400, 0, 800, 0) # red horizontal line
 
 input()
