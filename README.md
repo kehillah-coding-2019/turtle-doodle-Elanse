@@ -13,3 +13,27 @@ OR
 ```
 $python3 spiral.py
 ```
+## Highlighted Code
+### doodle.py
+This code creates all the lines on the Union Jack.
+```python
+def drawLine(myTurtle, color, size, x, y, length, angle):
+    myTurtle.speed(0)
+    myTurtle.penup()
+    myTurtle.goto(x, y)
+    myTurtle.pendown()
+    myTurtle.pencolor(color)
+    myTurtle.pensize(size)
+    myTurtle.begin_fill()
+    myTurtle.right(angle)
+    myTurtle.forward(length)
+    myTurtle.end_fill()
+    myTurtle.ht()
+```
+### spiral.py
+The cycle mod lets in cycle through the colors of the rainbow easily.
+```python
+import cycle
+COLOR_CHOICES = ["red", "orange", "yellow", "green", "blue", "purple"] # colors used in the spiral
+colors = cycle(COLOR_CHOICES) # cycles through the colors 
+```
