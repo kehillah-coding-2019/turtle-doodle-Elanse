@@ -1,6 +1,15 @@
 # Elan's Turtle Doodle 
 This folder contains two doodles. One of the doodles draws the Union Jack, the official flag United Kingdom, when run. The other draws a spiral of circles that cycles through the colors of the rainbow. 
-### Union Jack 
+### Union Jack
 ![image](https://user-images.githubusercontent.com/33039002/46832900-1eaade80-cd5c-11e8-8d51-ee5f93328d0d.png)
-### Spiral 
+### Spiral
 ![image](https://user-images.githubusercontent.com/33039002/46832296-83653980-cd5a-11e8-9338-df25350e85c6.png)
+## How to Run
+To run, use the python interpreter with doodle.py (draws the Union Jack) or spiral.py (draws a spiral). Your terminal window should look like this:
+```
+$python3 doodle.py
+```
+OR
+```
+$python3 spiral.py
+```
