@@ -5,18 +5,21 @@ t = turtle.Turtle()
 t.speed(0)
 
 COLOR_CHOICES = ["red", "orange", "yellow", "green", "blue", "purple"]
+# colors used in the spiral
 
-colors = cycle(COLOR_CHOICES)
+colors = cycle(COLOR_CHOICES) # cycles through the colors 
 
-def drawSpiral(myTurtle, x, y):
+"Write a function that draws a spiral alternating colors through the rainbow."
+
+def drawSpiral(myTurtle):
     for i in range(0, 500, 5):
         myTurtle.penup()
-        myTurtle.setpos(x, y)
+        myTurtle.setpos(0, 0)
         myTurtle.color(next(colors))
         myTurtle.pendown()
         myTurtle.circle(i)
         myTurtle.left(10)
 
-drawSpiral(t, 0, 0)
+drawSpiral(t)
 
 input()
