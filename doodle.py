@@ -25,11 +25,10 @@ bg.setup(length, height) #sets flag dimensions in a 2:1 aspectRatio
 bg.bgcolor("midnightblue")
 
 
-"""
-Make a function to draw the lines on the Union Jack.
-"""
-
 def drawLine(myTurtle, color, size, x, y, length, angle):
+    """
+    Make a function to draw the lines on the Union Jack.
+    """
     myTurtle.speed(0)
     myTurtle.penup()
     myTurtle.goto(x, y)
